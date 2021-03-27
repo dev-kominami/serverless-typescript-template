@@ -1,0 +1,11 @@
+version: '3'
+services:
+  typescript-lambda:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./app:/app
+    tty: true
+    env_file:
+    - .env 
