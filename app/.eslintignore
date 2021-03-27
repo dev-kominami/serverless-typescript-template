@@ -6,5 +6,5 @@ dist
 coverage
 
 # serverless対応のため追記
-/webpack.config.js
-
+webpack.config.js
+tsconfig.json
